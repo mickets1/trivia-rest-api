@@ -1,0 +1,58 @@
+Each URI requires a specific HTTP-method.
+If for example a GET request is used for a URI that requires POST the response is a 404.
+
+The Postman collection gives more information about what is required and how things should work with additional comments.
+(click edit on each request to show the comment).
+
+MongoDB pluralize collections automatically, which is what we want but sometimes does this a bit weirdly.
+People becomes peoples and tech becomes teches.
+
+Main
+GET https://api1dv027.herokuapp.com/api
+
+  GET https://api1dv027.herokuapp.com/api/categories
+  List all available categories
+
+  POST https://api1dv027.herokuapp.com/api/login
+  Login to the API with a JWT
+  POST https://api1dv027.herokuapp.com/api/register
+  Register a user(email, password) returns JWT
+
+  GET https://api1dv027.herokuapp.com/api/webhook/events
+  List subscribable events(just one for now)
+
+  POST https://api1dv027.herokuapp.com/api/webhook/register
+  Register a webhook, requires valid JWT and a url in body.
+
+  POST https://api1dv027.herokuapp.com/api/webhook/subscribe
+  Subscribe to a new-question events. Triggered when theres a new question added to the database.
+  I've used https://webhook.site for webhook-testing, this needs to be changed in postman(body) as it probably expired at the time of assignment correction.
+
+
+Categories
+  GET https://api1dv027.herokuapp.com/api/categories
+    POST https://api1dv027.herokuapp.com/api/categories/add-category
+    Adds a new question category.
+
+    GET https://api1dv027.herokuapp.com/api/categories/musics
+    GET https://api1dv027.herokuapp.com/api/categories/entertainments
+    GET https://api1dv027.herokuapp.com/api/categories/randoms
+    Picks a random question from the other categories(no duplicated questions).
+
+    GET https://api1dv027.herokuapp.com/api/categories/peoples
+    GET https://api1dv027.herokuapp.com/api/categories/teches
+
+Category
+GET https://api1dv027.herokuapp.com/api/categories/musics
+  GET https://api1dv027.herokuapp.com/api/categories/musics/random-question
+  Picks a random question for the specific category.
+
+  POST https://api1dv027.herokuapp.com/api/categories/musics/add-question
+  Adds a new question to (for example) the music category.
+  If a user specify a category that doesnt exist it will be created along with the question.
+
+  PUT https://api1dv027.herokuapp.com/api/categories/musics/edit-question
+  Updates a specific question, the id of the question(document) needs to be specified(shown in Postman collection).
+
+  DELETE https://api1dv027.herokuapp.com/api/categories/musics/remove-question
+  Deletes a specific question

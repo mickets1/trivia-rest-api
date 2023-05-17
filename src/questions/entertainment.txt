@@ -1,0 +1,329 @@
+#Q In the comics FoxTrot, Roger Fox is writing a novel.
+^ True
+A True
+B False
+
+#Q Does Andy and Rogers daughter get notes in her locker in FoxTrot?
+^ Yes
+A No
+B Yes
+
+#Q What is the name of Peters girlfriend in the comics FoxTrot?
+^ Denise
+A Ashley
+B Sarah
+C Abbey
+D Denise
+
+#Q Which of the following best describes Andy and Roger’s youngest child in the comics FoxTrot?
+^ A nerd
+A A jock
+B A nerd
+C A sports addict
+D A TV addict
+
+#Q Has FoxTrot character Jason developed a plan for a Star Trek-themed amusement park?
+^ No
+A Yes
+B No
+
+#Q What Batman villain formerly worked as a zoologist?
+^ ManBat
+A Poison Ivy
+B The Penguin
+C ManBat
+D Killer Croc
+
+#Q What super villain once broke Batmans back, leaving him crippled and wheelchair-bound?
+^ Bane
+A Clayface
+B Bane
+C Killer Croc
+D Ras Al Ghul
+
+#Q What year was the character of Robin first introduced?
+^ 1940
+A 1940
+B 1950
+C 1941
+D 1951
+
+#Q Who is credited with creating Batman?
+^ Bob Kane
+A Joe Shuster
+B Bob Kane
+C Jack Kirby
+D Jerry Siegel
+
+#Q In Detective Comics #267, a magical Kobold from another dimension decides to help Batman fight crime--what was his name?
+^ Bat-Mite
+A Bat-Mite
+B Bat-Dwarf
+C Mr Mxyztplk
+D Martian Manhunter
+
+#Q What was Bat-hounds name?
+^ Ace
+A Lucky
+B Champ
+C Ace
+D Burt
+
+#Q What were the names of Bruce Waynes parents?
+^ Thomas  Martha
+A Thomas  Martha
+B James  Elizabeth
+C Wayne  Alice
+D George  Elaine
+
+#Q The original Batgirl was related to what familiar Batman character?
+^ Batwoman
+A Alfred
+B Batwoman
+C The Joker
+D Commissioner Gordon
+
+#Q Which of these Bat-villains was introduced first?
+^ Catwoman
+A The Riddler
+B Mr. Freeze
+C The Penguin
+D Catwoman
+
+#Q What was Alfred the butlers original family name?
+^ Beagle
+A Chatsworth
+B Chapman
+C Beagle
+D Windham
+
+#Q How many health points does the Mountian Giant unit have?
+^ 1600
+A 1400
+B 1500
+C 1600
+D 1200
+
+#Q What hero does the phrase Moonlight shines upon the guilty and the innocent alike belong to?
+^ Naisha
+A Maiev Shadowsong
+B Jeana Proudmoore
+C Tyrande Whisperwind
+D Naisha
+
+#Q Who is the leader of the Burning Legion?
+^ Archimond
+A Archimond
+B Death Prince Arthas
+C Tichondrius
+D Varimathras
+
+#Q What is the name of the well from which Night Elfs originally obtained their magical powers?
+^ Well of Eternity
+A MoonWell
+B Well of Magic
+C Well of Eternity
+D Well of Power
+
+#Q What hero or unit does the this phrase belong to?
+^ Muradin Bronzebeard
+A Muradin Bronzebeard
+B Knight
+C Mountian Giant
+D Dwarf Rifleman
+
+#Q Who is Tyrande Whisperwind in love with?
+^ Malfurion Stormrage
+A Malfurion Stormrage
+B Cenarius Stormage
+C Prince Arthas
+D Illidan Stormrage
+
+#Q In Warcraft III:The Frozen Throne, Illidan Stormrage works for?
+^ Kiljaeden
+A Tichondrius
+B Kiljaeden
+C Sargeras
+D Archimond
+
+#Q What is the name of the creator of Bloom County?
+^ Berkely Brethed
+A Berkely Brethed
+B Simon Pimon
+C Chris Claremont
+D Charle Schultz
+
+#Q What was the name of the penguin in Bloom County?
+^ Opus
+A Sandoval
+B Opus
+C Big Bertha
+D Salmoneus
+
+#Q In Bloom County, Milo Bloom was a 10-year-old reporter for The Bloom Chronicle.
+^ False
+A True
+B False
+
+#Q What was the name of the hard rock band formed by lawyer Steve Dallas in the Bloom County comic strip?
+^ Deathtongue
+A The Raiders
+B Deathtongue
+C Opus and the Orangeheads
+D Billy and the Boingers
+
+#Q Who did Opus marry in the comic strip Bloom County?
+^ Lola Granola
+A Nola Spinuzzi
+B Lola Granola
+C Rona Amonia
+D Ima Petunia
+
+#Q Bloom County character Opus has appeared in two other comic strips titled Neverland and Opus.
+^ False
+A True
+B False
+
+#Q What was the name of the feminist school teacher in Bloom County?
+^ Bobbie Harlowe
+A Bobbie Simmons
+B Bobbie Harlowe
+C Bobbie Jo
+D Bobbie Smith
+
+#Q There was a TV Christmas special that centered on the famous comic strip character Opus.
+^ True
+A True
+B False
+
+#Q In the comic strip Bloom County, Bill the cat became a televangelist. What was his name?
+^ Fundamentally Oral Bill
+A Oral Bill
+B Fundamentally mental Bill
+C Bill Roberts
+D Fundamentally Oral Bill
+
+#Q What year did Andy Capp make his comic strip debut?
+^ 1957
+A 1969
+B 1957
+C 1963
+D 1972
+
+#Q Which of these is NOT one of Andy Capps hobbies?
+^ Hunting
+A Pigeon Racing
+B Gambling
+C Hunting
+D Drinking
+
+#Q There was once a musical based on the Andy Capp comic strip.
+^ True
+A True
+B False
+
+#Q Who are Andy Capps best friends and neighbors?
+^ The Whites
+A The Smiths
+B The Ritsons
+C The Blacks
+D The Whites
+
+#Q What country are the Andy Capp comic strips set in?
+^ Britain
+A Britain
+B Ireland
+C America
+D Canada
+
+#Q Cartoon character Andy Capp has a son.
+^ True
+A True
+B False
+
+#Q In what year did the Andy Capp comic strips reach the U.S.?
+^ 1963
+A 1959
+B 1963
+C 1960
+D 1971
+
+#Q Which one of these comics was the first comic Jim Davis created?
+^ Gnorm Gnat
+A The Life of Jon Arbuckle
+B Gnorm Gnat
+C Farm Life
+D Garfield
+
+#Q When did the comic strip Garfield come out?
+^ 1978
+A 1978
+B 2000
+C 1952
+D 1995
+
+#Q Is it true that the comic strip Garfield inspired a CD titled Am I Cool or Not?
+^ No
+A No
+B Yes
+
+#Q Who is Garfields on and off girlfriend?
+^ Arlene
+A Nermal
+B Arlene
+C Liz
+D Irma
+
+#Q Is it true that Nermal, who makes unannounced visits into Garfields home, is a male kitten?
+^ Yes
+A Yes
+B No
+
+#Q Who is the fictional dog that gets pushed around by Garfield?
+^ Odie
+A Odie
+B Jon
+C Fido
+D Irma
+
+#Q Who is the Garfields owner on the popular comic strip?
+^ Jon Arbuckle
+A Dr. Liz Wilson
+B Jon Arbuckle
+C Clive
+D Jim Davis
+
+#Q What is the profession of Irma, one of the supporting characters on the comic strip Garfield?
+^ waitress
+A cook
+B waitress
+C vet
+D She is unemployed.
+
+#Q What is the name of Garfields veterinarian on the self-titled comic strip?
+^ Liz Wilson
+A Liz Arbuckle
+B Liz Wilson
+C Liz Davis
+D Julie Payne
+
+#Q This ancient circus, situated between the Palatine and Aventine hills, was both the first and the largest circus in Rome.
+^ Circus Maximus
+A Circus of Maxentius
+B Circus Maximus
+C Circus Neronis
+D Circus Flaminius
+
+#Q Who was the creator of the French circus, who is also thought to be one of the creators of modern circus?
+^ Antonio Franconi
+A Paul Fratellini
+B Antonio Franconi
+C Pierrot Bidon
+D Arthur Vercoe Pedlar
+
+#Q In which state did the first circus building in the USA open in 1793?
+^ Pennsylvania
+A Pennsylvania
+B California
+C Illinois
+D Oklahoma

@@ -1,0 +1,618 @@
+{
+	"info": {
+		"_postman_id": "319df703-c715-4e5b-81e5-8888179aed84",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API main",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api1dv027.herokuapp.com/api/categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api1dv027.herokuapp.com/api/webhook/events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/webhook/events",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"webhook",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random question from category with randomized answers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/randoms/random-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"randoms",
+						"random-question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random question from music category. incl. id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/musics/random-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"musics",
+						"random-question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register a user",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"test@test.com\",\n    \"password\": \"testtesttest\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/register",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				},
+				"description": "{\n    \"email\": \"test3@test.com\",\n    \"password\": \"testtesttest\"\n}\n\nShould return a 201 response and id."
+			},
+			"response": []
+		},
+		{
+			"name": "Login and return JWT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"test@test.com\",\n    \"password\": \"testtesttest\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/login",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "{\n    \"email\": \"test@test.com\",\n    \"password\": \"testtesttest\"\n}\n\nAuthentication for a user, returns a JWT."
+			},
+			"response": []
+		},
+		{
+			"name": "Login without JWT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/login",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Should display unauthorized message."
+			},
+			"response": []
+		},
+		{
+			"name": "Register a webhook without JWT",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-secret-token",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"https://webhook.site/9d83278f-af08-4790-aeca-3f2f610246ff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/webhook/register",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"webhook",
+						"register"
+					]
+				},
+				"description": "url need to be changed to a new webhook.site url\nShould return 401 without JWT"
+			},
+			"response": []
+		},
+		{
+			"name": "Register a webhook with JWT",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjU0MTgxMDM0LCJleHAiOjE2NjQxODEwMzN9.o3-Jp6TfQJq_O-VopE-94cvSiKD1FSOOO_5NnTK3YVN3dQHUfiigbQ5_NG5Upr8Icw7lVja4LbxFvF7cKkErdT9vRS5xIUqLj5tnu34KPfM13WVXglYSQLvKSceKSiar3DTq15GHsyFiXcNeeoNNAe7Na1N-yB7elDkdgvsg5LyNp0Wdi5fhZWvGpNm8aWpq-v-CTyrAtoi7l5ppcQ3741NfM2HwugATEup01cs8W86NDl-YBgLEAx0xmCi0dsGQVqITuGwAB-dmmK3dB85KvHPGCbebo1lweEEUqhhB2QO11mnntTxB9iBtqlF13vybQtygmakv22gYySCg5KNBpLi_NOTdNdL1CQKrteTqpxhHg8WVvldBLlc2hGSq_0Rmg_J3ns8fTia49W6n7N0nH1CBTAw6CAr_w51R42VoLz5MAnPAIHJQCaBh799jNbmyBfQ6gl_nhZSM85P4km5keg_tOmkOdDwYswoPTDtR9E7P5SacessYSM-oPRUva1j8acfuQZvOsw9-2lpeS-rB_e1fmjb_LbUJj2KBu11OIUdi5zcuNGYd9eVqf1iZyRDOrR_4xNvxZKB1ca-tQakkWk0sy5ZraDEMyyddYeM93DcK09hqfF7CzP9Z3mRnlTN-Dacck05H0R-VDnelQ_J_btmK4iNJDafHZJ5rCPEsr0U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-secret-token",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"https://webhook.site/9d83278f-af08-4790-aeca-3f2f610246ff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/webhook/register",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"webhook",
+						"register"
+					]
+				},
+				"description": "Specify/replace the JWT in the authorization header as a bearer token."
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe to event with incorrect secret.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjU0MTgxMDM0LCJleHAiOjE2NjQxODEwMzN9.o3-Jp6TfQJq_O-VopE-94cvSiKD1FSOOO_5NnTK3YVN3dQHUfiigbQ5_NG5Upr8Icw7lVja4LbxFvF7cKkErdT9vRS5xIUqLj5tnu34KPfM13WVXglYSQLvKSceKSiar3DTq15GHsyFiXcNeeoNNAe7Na1N-yB7elDkdgvsg5LyNp0Wdi5fhZWvGpNm8aWpq-v-CTyrAtoi7l5ppcQ3741NfM2HwugATEup01cs8W86NDl-YBgLEAx0xmCi0dsGQVqITuGwAB-dmmK3dB85KvHPGCbebo1lweEEUqhhB2QO11mnntTxB9iBtqlF13vybQtygmakv22gYySCg5KNBpLi_NOTdNdL1CQKrteTqpxhHg8WVvldBLlc2hGSq_0Rmg_J3ns8fTia49W6n7N0nH1CBTAw6CAr_w51R42VoLz5MAnPAIHJQCaBh799jNbmyBfQ6gl_nhZSM85P4km5keg_tOmkOdDwYswoPTDtR9E7P5SacessYSM-oPRUva1j8acfuQZvOsw9-2lpeS-rB_e1fmjb_LbUJj2KBu11OIUdi5zcuNGYd9eVqf1iZyRDOrR_4xNvxZKB1ca-tQakkWk0sy5ZraDEMyyddYeM93DcK09hqfF7CzP9Z3mRnlTN-Dacck05H0R-VDnelQ_J_btmK4iNJDafHZJ5rCPEsr0U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-secret-token",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"https://webhook.site/9d83278f-af08-4790-aeca-3f2f610246ff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/webhook/subscribe",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"webhook",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe to event with correct secret.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjU0MTgxMDM0LCJleHAiOjE2NjQxODEwMzN9.o3-Jp6TfQJq_O-VopE-94cvSiKD1FSOOO_5NnTK3YVN3dQHUfiigbQ5_NG5Upr8Icw7lVja4LbxFvF7cKkErdT9vRS5xIUqLj5tnu34KPfM13WVXglYSQLvKSceKSiar3DTq15GHsyFiXcNeeoNNAe7Na1N-yB7elDkdgvsg5LyNp0Wdi5fhZWvGpNm8aWpq-v-CTyrAtoi7l5ppcQ3741NfM2HwugATEup01cs8W86NDl-YBgLEAx0xmCi0dsGQVqITuGwAB-dmmK3dB85KvHPGCbebo1lweEEUqhhB2QO11mnntTxB9iBtqlF13vybQtygmakv22gYySCg5KNBpLi_NOTdNdL1CQKrteTqpxhHg8WVvldBLlc2hGSq_0Rmg_J3ns8fTia49W6n7N0nH1CBTAw6CAr_w51R42VoLz5MAnPAIHJQCaBh799jNbmyBfQ6gl_nhZSM85P4km5keg_tOmkOdDwYswoPTDtR9E7P5SacessYSM-oPRUva1j8acfuQZvOsw9-2lpeS-rB_e1fmjb_LbUJj2KBu11OIUdi5zcuNGYd9eVqf1iZyRDOrR_4xNvxZKB1ca-tQakkWk0sy5ZraDEMyyddYeM93DcK09hqfF7CzP9Z3mRnlTN-Dacck05H0R-VDnelQ_J_btmK4iNJDafHZJ5rCPEsr0U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-secret-token",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"https://webhook.site/9d83278f-af08-4790-aeca-3f2f610246ff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/webhook/subscribe",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"webhook",
+						"subscribe"
+					]
+				},
+				"description": "Subscribe to \"new-question\" event.\nUser gets notified when theres a new question posted to the database."
+			},
+			"response": []
+		},
+		{
+			"name": "Add new category",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjQ4NzYzNjk2LCJleHAiOjE2NTg3NjM2OTV9.5TW0OI2Ih9_3AWix9FGPCgfVYf8ol_U9a1mgL3KJ2VET_8e_sdFHwVEMSZamWMB4uwOhmP_ISQv2b51Cw7xF23oZkv9ilABizntOcP3468coP_riFmZcp_hAzwDzxubsu_PGPqxA1VSlcuOI3BkNFwXwoR3ccwEsXhH1kqo4F6szht6kO48XoA2OS89X_ImhD2TkkjnptJXdJPefhLvj6zpJOUkivmyNJ0nzENTeC4kOeNj5FwnNHJyxuEJoCmm6zw_s7rEcNb05T5VSyokUk4zhYTsvoLtG5lu73Su3HnVr9CZrgvQtOWESRpsONSivE-Gi3qln0NkpDIiYv8xFQLqfa8N1HweNJDuM-d8l-TljcIRKaL4_9AjBgwZitgqJyuymlfVPOt5omvWyfDq_JL9U18ADM9MQTonbdIpftYvJXzhSvVsEZ9MvRq0ed8_vhW5j7D27zDo1Kx6JZ12ubkOfCgz4KZfgQ4kLoAxH4T9dU0oqT6GG6zE-YKU0d98NOci_q7-PqFd0T0NJ29lKfGMdGgSzELP56I-jNu-NzBhUqr0UcjOdlRwWVu_GnmAphuw_Pe30JJXVPYjRHhbrSgAJYhN8ZfCSz4zVZ_7IsV85izJ4NDE5PO-ST3_mmVlEZXLpzHv0GSZrKm9zhjfvkeIQYXsJHa7eWdcUPGDlLXY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"category\": \"tests\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/add-category",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"add-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new question incorrectly.",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true,
+					"host": true,
+					"accept": true,
+					"accept-encoding": true,
+					"connection": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjQ2Mjk4NjQ2LCJleHAiOjE2NTYyOTg2NDV9.U6Vql1PM9X5kcIHfngJn6rEnFfhZTsf3jcr1Ys_zBjlfJ-dLJDAmDpL64L7o32z2MdTgJR1_RqbsFvg_HCCWu69PzZKyq94UKGVOhf8HgnS3L52re_RBliBTHPb6UIcu-fukILgn35fse97Z_KK4qGWFyXdb0LyedXSwo1foDLBNxzd9VZEl-ypOuIbQdwpAJs_PRsw7ZO5-P75vIp1Now8yq7q_1bxvY7vbl2hNr6MaxOJlRDq8s6uQcZ5giSiOCF0jhVxzA2ltZcgrWtKTOllOVWBZYqI0JLAe1K4PDObd8HDaKawhDWrlAepKkpCcNIFKArlIHIKnqa0AFiTMem14yo_EnDnFi__yTS4_xwVBowvtAS4eOV_DhMKOyGm3CQt4nfQqd-v2bdj4VMz6zyELn1w1S-YK7byEMC7FBpeYLjH6_FRm2kX3GcURPPqEBsd2zjn6wuJkxoBZe9q2TMIGMlc5U5BWgQLJpfbBsG0glftx1JYqvPrEr-LPXPwwnyVbsMdQDOpRX7QmvDPR4ypwBmWIehSaODBycL7K7y7Ah144WBrb03TnIVaydDcDTnFMEH_RL3WHamCCS5mAWTbS2Ildsmv36r7X_VSsOB-jDxNX5kWu_4LXhl1960-3aHtVZIMw0T5rgbgYQmWGph45PIqPL5mAnnnP9trBrKQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"this is a question\",\n    \"answers\": [\"1st answer\", \"2nd answer\", \"3rd answer\", \"4th answer\"],\n    \"correctAnswer\": \"2nd answer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/add-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"add-question"
+					]
+				},
+				"description": "Bad request when not specifying category"
+			},
+			"response": []
+		},
+		{
+			"name": "Add new question to a category",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjQ2Mjk4NjQ2LCJleHAiOjE2NTYyOTg2NDV9.U6Vql1PM9X5kcIHfngJn6rEnFfhZTsf3jcr1Ys_zBjlfJ-dLJDAmDpL64L7o32z2MdTgJR1_RqbsFvg_HCCWu69PzZKyq94UKGVOhf8HgnS3L52re_RBliBTHPb6UIcu-fukILgn35fse97Z_KK4qGWFyXdb0LyedXSwo1foDLBNxzd9VZEl-ypOuIbQdwpAJs_PRsw7ZO5-P75vIp1Now8yq7q_1bxvY7vbl2hNr6MaxOJlRDq8s6uQcZ5giSiOCF0jhVxzA2ltZcgrWtKTOllOVWBZYqI0JLAe1K4PDObd8HDaKawhDWrlAepKkpCcNIFKArlIHIKnqa0AFiTMem14yo_EnDnFi__yTS4_xwVBowvtAS4eOV_DhMKOyGm3CQt4nfQqd-v2bdj4VMz6zyELn1w1S-YK7byEMC7FBpeYLjH6_FRm2kX3GcURPPqEBsd2zjn6wuJkxoBZe9q2TMIGMlc5U5BWgQLJpfbBsG0glftx1JYqvPrEr-LPXPwwnyVbsMdQDOpRX7QmvDPR4ypwBmWIehSaODBycL7K7y7Ah144WBrb03TnIVaydDcDTnFMEH_RL3WHamCCS5mAWTbS2Ildsmv36r7X_VSsOB-jDxNX5kWu_4LXhl1960-3aHtVZIMw0T5rgbgYQmWGph45PIqPL5mAnnnP9trBrKQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"category\": \"tests\",\n    \"question\": \"this is a question2\",\n    \"answers\": [\"1st answer\", \"2nd answer\", \"3rd answer\", \"4th answer\"],\n    \"correctAnswer\": \"2nd answer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/add-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"add-question"
+					]
+				},
+				"description": "Works with both singular and plural version of the category name.\n\nIf the category does not exist it will be created.\nIf the question exist it will be returned and not duplicated."
+			},
+			"response": []
+		},
+		{
+			"name": "Edit the details of a specific question",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjU0MTgxMDM0LCJleHAiOjE2NjQxODEwMzN9.o3-Jp6TfQJq_O-VopE-94cvSiKD1FSOOO_5NnTK3YVN3dQHUfiigbQ5_NG5Upr8Icw7lVja4LbxFvF7cKkErdT9vRS5xIUqLj5tnu34KPfM13WVXglYSQLvKSceKSiar3DTq15GHsyFiXcNeeoNNAe7Na1N-yB7elDkdgvsg5LyNp0Wdi5fhZWvGpNm8aWpq-v-CTyrAtoi7l5ppcQ3741NfM2HwugATEup01cs8W86NDl-YBgLEAx0xmCi0dsGQVqITuGwAB-dmmK3dB85KvHPGCbebo1lweEEUqhhB2QO11mnntTxB9iBtqlF13vybQtygmakv22gYySCg5KNBpLi_NOTdNdL1CQKrteTqpxhHg8WVvldBLlc2hGSq_0Rmg_J3ns8fTia49W6n7N0nH1CBTAw6CAr_w51R42VoLz5MAnPAIHJQCaBh799jNbmyBfQ6gl_nhZSM85P4km5keg_tOmkOdDwYswoPTDtR9E7P5SacessYSM-oPRUva1j8acfuQZvOsw9-2lpeS-rB_e1fmjb_LbUJj2KBu11OIUdi5zcuNGYd9eVqf1iZyRDOrR_4xNvxZKB1ca-tQakkWk0sy5ZraDEMyyddYeM93DcK09hqfF7CzP9Z3mRnlTN-Dacck05H0R-VDnelQ_J_btmK4iNJDafHZJ5rCPEsr0U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"_id\": \"6298dadebf0ddb5cd429dcba\",\n    \"question\": \"this is a question-update\",\n    \"answers\": [\"1st answer\", \"2nd answer\", \"3rd answer\", \"4th answer\"],\n    \"correctAnswer\": \"2nd answer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/tests/edit-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"tests",
+						"edit-question"
+					]
+				},
+				"description": "Replace _id with the id of a question"
+			},
+			"response": []
+		},
+		{
+			"name": "Remove a specific question",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNjU0MTgxMDM0LCJleHAiOjE2NjQxODEwMzN9.o3-Jp6TfQJq_O-VopE-94cvSiKD1FSOOO_5NnTK3YVN3dQHUfiigbQ5_NG5Upr8Icw7lVja4LbxFvF7cKkErdT9vRS5xIUqLj5tnu34KPfM13WVXglYSQLvKSceKSiar3DTq15GHsyFiXcNeeoNNAe7Na1N-yB7elDkdgvsg5LyNp0Wdi5fhZWvGpNm8aWpq-v-CTyrAtoi7l5ppcQ3741NfM2HwugATEup01cs8W86NDl-YBgLEAx0xmCi0dsGQVqITuGwAB-dmmK3dB85KvHPGCbebo1lweEEUqhhB2QO11mnntTxB9iBtqlF13vybQtygmakv22gYySCg5KNBpLi_NOTdNdL1CQKrteTqpxhHg8WVvldBLlc2hGSq_0Rmg_J3ns8fTia49W6n7N0nH1CBTAw6CAr_w51R42VoLz5MAnPAIHJQCaBh799jNbmyBfQ6gl_nhZSM85P4km5keg_tOmkOdDwYswoPTDtR9E7P5SacessYSM-oPRUva1j8acfuQZvOsw9-2lpeS-rB_e1fmjb_LbUJj2KBu11OIUdi5zcuNGYd9eVqf1iZyRDOrR_4xNvxZKB1ca-tQakkWk0sy5ZraDEMyyddYeM93DcK09hqfF7CzP9Z3mRnlTN-Dacck05H0R-VDnelQ_J_btmK4iNJDafHZJ5rCPEsr0U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"_id\": \"6298dadebf0ddb5cd429dcba\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api1dv027.herokuapp.com/api/categories/tests/remove-question",
+					"protocol": "https",
+					"host": [
+						"api1dv027",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories",
+						"tests",
+						"remove-question"
+					]
+				},
+				"description": "User need to know the id of a question.\nMakes it a little harder to remove others questions."
+			},
+			"response": []
+		}
+	]
+}

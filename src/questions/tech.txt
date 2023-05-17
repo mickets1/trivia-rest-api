@@ -1,0 +1,403 @@
+#Q These small bodies are considered left overs from the formation of the Solar system some 4.6 billion years ago.
+^ Asteroids
+A Comets
+B Stars
+C Planets
+D Asteroids
+
+#Q These are lumps of ice and dust.  When they get close enough to the Sun they gradually evaporate.  Jets of gas and dust create long tails that people can see from Earth.
+^ Comets
+A Asteroids
+B Comets
+C UFOs
+D Stars
+
+#Q This planet is slightly smaller than Earth and its closest neighbor (excluding the Moon).
+^ Venus
+A Venus
+B Uranus
+C Mars
+D Saturn
+
+#Q This planet is has the largest  group of moons - 31, but it is best known for its ring system.
+^ Saturn
+A Neptune
+B Mars
+C Saturn
+D Venus
+
+#Q This planet of the Solar System was named after a Greek god of the sea and earthquakes. The name is actually the Roman translation of the gods name.
+^ Neptune
+A Mercury
+B Neptune
+C Pluto
+D Uranus
+
+#Q As this is the closest planet to the Sun, its temperatures at the surface range between -300 and 800 F (hot enough for lead to melt).
+^ Mercury
+A Neptune
+B Mercury
+C Pluto
+D Venus
+
+#Q The surface of this planet is unique, it is the only one which has water in large quantities.
+^ Earth
+A Saturn
+B Pluto
+C Earth
+D Mars
+
+#Q Which Solar System celestial bodys revolution around the Sun takes 248 years?
+^ Pluto
+A Saturn
+B Pluto
+C Neptune
+D Uranus
+
+#Q This is the largest planet in our solar system. It is most famous for its Great Red Spot.
+^ Jupiter
+A Mars
+B Neptune
+C Saturn
+D Jupiter
+
+#Q Miranda, Ariel, Umbriel, Titania, Oberon, Caliban, and Sycorax are names of the icy moons of this planet.
+^ Uranus
+A Uranus
+B Jupiter
+C Saturn
+D Venus
+
+#Q The popular chat room abbreviation asl or a/s/l stands for age, sex, and location.
+^ True
+A True
+B False
+
+#Q An icon or animation to represent a participant used in Internet chat and games is referred to as this.
+^ Avatar
+A Bitmap
+B Cookie
+C Applet
+D Avatar
+
+#Q If you and I are chatting over the Internet and I write LOL, that means that I am doing this.
+^ Laughing
+A Crying
+B Laughing
+C Sleeping
+D Eating
+
+#Q The terms smiley and emoticon refer to one and the same thing.
+^ True
+A True
+B False
+
+#Q http://www.123facts.com/ is referred to as this.
+^ URL
+A TCP
+B WAP
+C URL
+D USB
+
+#Q One of the following pairs (chat abbreviation - its  meaning) is wrong.
+^ TTYL - To Tell You a Lie
+A BRB - Be Right Back
+B ATM - At The Moment
+C TTYL - To Tell You a Lie
+D TIA - Thanks In Advance
+
+#Q One of these things will not help you to get in touch with your neighbours PC.
+^ Cache server
+A Hub
+B Router
+C Cache server
+D Network card
+
+#Q If they call me a newbie then I am new to the Internet; and/or new to the subject in general.
+^ True
+A False
+B True
+
+#Q In chat jargon, the emoticon  [8-] refers to this person.
+^ Frankenstein
+A Elvis
+B Ronald Regan
+C Frankenstein
+D The Pope
+
+#Q The medical term cardio, deriving from a Greek word, refers to which organ of the human body?
+^ Heart
+A Brain
+B Liver
+C Lungs
+D Heart
+
+#Q The term arthro is of Greek origin. It refers to which part of the body?
+^ Joint
+A Head
+B Skin
+C Bone
+D Joint
+
+#Q Gastro is a common medical prefix, derived from the Greek word gastros which means what?
+^ Stomach
+A Gas
+B Brain
+C Cell
+D Stomach
+
+#Q The word hepato, which derives from Greek, refers to the kidney.
+^ False
+A False
+B True
+
+#Q Erythrocytes are a type of blood cells, consisting mainly of hemoglobin. What does the word erythro mean?
+^ Red
+A Red
+B Knowledge
+C Cell
+D White
+
+#Q The term thrombo, which comes from Greek, refers to a blood clot.
+^ True
+A False
+B True
+
+#Q The word adeno, deriving from Greek, refers to which to what body part?
+^ Gland
+A Flesh
+B Brain
+C Gland
+D Kidney
+
+#Q The two terms nephro and ren both refer to the kidneys.
+^ True
+A True
+B False
+
+#Q Onco, coming from the Greek word onkos refers to what?
+^ Tumor
+A Ear
+B Nerve
+C Eye
+D Tumor
+
+#Q The food colorants, cochineal and carmine, are made from what?
+^ A kind of insect
+A Frogs
+B A kind of insect
+C FDC Red Dye #40
+D None of these
+
+#Q Jell-O, the popular gelatin dessert, is made in part, from what?
+^ Bones and hides
+A Bones and hides
+B Red ants
+C None of these
+D Horses and cows hooves
+
+#Q Twinkies, the sponge cake with creamy filling, created by Hostess, have an indefinite shelf life.
+^ False
+A True
+B False
+
+#Q Which of these statements, related to the effects of eating turkey, is true?
+^ None of these
+A Turkey slows your metabolic rate which makes you drowsy
+B A turkey makes you sleepy as it contains the natural sedative L-tryptophan
+C Increased blood flow to the gastrointestinal tract makes one drowsy
+D None of these
+
+#Q The traditional Japanese dish, sushi, is always made with raw fish.
+^ False
+A True
+B False
+
+#Q What food results in negative calories when eaten?
+^ All of these
+A Carrots
+B Celery
+C All of these
+D Radishes
+
+#Q Chop Suey, a pasta dish consisting of short noodles, was originally made and served in which country?
+^ USA
+A Thailand
+B USA
+C China
+D Vietnam
+
+#Q Gatorade, a non-carbonated sports drink, was invented by researchers at the University of Florida and named in honor of the Florida Gators, the schools football team.
+^ True
+A False
+B True
+
+#Q In 2003, the FDA issued a warning about a possible connection between green onions and which disease?
+^ Hepatitis A
+A None of these
+B Gall stones
+C Hepatitis A
+D Cancer
+
+#Q In the USA, the color of the plastic tags, used to seal bread bags, indicates on what day the loaves were baked.
+^ True
+A True
+B False
+
+#Q Death of heart tissues due to loss of blood supply correctly describes the condition known as Myocardial Infarction.
+^ True
+A True
+B False
+
+#Q This progressive generative disease of the brain results in loss of cognitive ability and uncontrolled movements, called chorea, the Greek word for dance.
+^ Huntingtons Disease
+A Alzheimers Disease
+B Myasthenia Gravis
+C Multiple Sclerosis
+D Huntingtons Disease
+
+#Q Which of these is best describes the cause of Parkinsons disease?
+^ A decrease in a neurotransmitter
+A A brain injury
+B Changes in the myelin sheath of the neuron
+C Decreased blood flow to the brain
+D A decrease in a neurotransmitter
+
+#Q If your physician tells you that you have Presbycusis due to the normal process of aging, he may suggest that you need which of these?
+^ Hearing aid
+A Dentures
+B Glasses
+C A wheelchair
+D Hearing aid
+
+#Q Which of these medical terms means difficulty in swallowing.
+^ dysphagia
+A dyspepsia
+B dysuria
+C dyspnea
+D dysphagia
+
+#Q Does the condition known as Hypoglycemia imply that blood sugar levels in the body are too high?
+^ No
+A Yes
+B No
+
+#Q If you have hyperthyroidism, your body is overproducing what hormone?
+^ Thyroxine
+A Estrogen
+B Thyroxine
+C Glucagon
+D Thyrocalcitonin
+
+#Q Which of these most accurately describes the medical term, necrosis?
+^ Death of living tissue
+A Irregular heartbeat
+B Death of living tissue
+C Decrease in white blood cells
+D Liver damage
+
+#Q Your physician has ordered an electroencephalogram (EEG), the graphic recording of the electrical activity of what organ?
+^ Brain
+A Muscles
+B Liver
+C Heart
+D Brain
+
+#Q In the US, what was the average street cost of a lid (3/4 ounce bag) of marijuana in the mid 1970s?
+^ $15.00
+A $20.00
+B $10.00
+C $15.00
+D $5.00
+
+#Q Marijuana is known by many names, including all of these but one. Which is the odd name?
+^ Janu
+A Mary Jane
+B Weed
+C Pot
+D Janu
+
+#Q What is marijuanas primary active ingredient?
+^ THC
+A THC
+B TCB
+C TAC
+D TBC
+
+#Q How many different chemicals can be found in marijuana?
+^ More than 400
+A 150
+B Less than 5
+C More than 400
+D 200
+
+#Q According to anonymous researches, conducted in the USA in 2002, most teenagers aged 12-17 have at least tried Marijuana.
+^ False
+A False
+B True
+
+#Q Which side effect is not related to the use of marijuana?
+^ Violent behaviour
+A Silly and causeless giggling
+B Red, bloodshot eyes
+C Dizziness and staggering
+D Violent behaviour
+
+#Q Marijuana is produced from parts of the male cannabis plants.
+^ False
+A True
+B False
+
+#Q With the passage of the Marijuana Tax Act, the United States effectively banned recreational and medicinal use of cannabis. What year was this act adopted?
+^ 1937
+A 1945
+B 1937
+C 1972
+D 1965
+
+#Q By amending its Opium Act in 1976, the government of which country decided to treat possession of up to 30 grams of marijuana as an activity not for prosecution, detection or arrest?
+^ Holland
+A Columbia
+B Holland
+C Canada
+D USA
+
+#Q What US state enacted Proposition 215, the Compassionate Use Act, which allowed sick and dying patients to legally use marijuana for medicinal purposes?
+^ California
+A Alabama
+B Hawaii
+C California
+D Ohio
+
+#Q The sphygmomanometer is a device invented by Samuel Siegfried Karl Ritter von Basch, used to measure what?
+^ Blood pressure
+A Blood pressure
+B Myopia
+C Intensity of headaches
+D Heart murmurs
+
+#Q This disorder, from a Greek word meaning failure to put in order, is characterised by lack of muscular coordination, and often occurs when parts of the nervous system which control movement are damaged.
+^ Ataxia
+A Narcolepsy
+B Dyslexia
+C Hyperkinesis
+D Ataxia
+
+#Q This disorder is the abnormal accumulation of cerebrospinal fluid in the ventricles of the brain.
+^ Hydrocephalus
+A Spina bifida
+B Multiple sclerosis
+C Epilepsy
+D Hydrocephalus
+
+#Q Tourette syndrome is a neurological disorder, characterized by tics -- involuntary, rapid, movements or vocalizations.
+^ True
+A False
+B True
+
+#Q This is the colloquial equivalent of the medical term Herpes zoster, which is used to define a condition, caused by the varicella zoster virus.
+^ Shingles
+A Cold sores
+B Sementia
+C Mumps
+D Shingles

@@ -1,0 +1,153 @@
+#Q Red Grange
+^ The Galloping Ghost
+A The Galloping Ghost
+B The Illini Rocket
+C Greased Lightning
+D The Wheatfield Warrior
+
+#Q Jerry West
+^ Mr. Clutch
+A Mr. Gearhead
+B Mr. Amazing
+C Mr. Fantastic
+D Mr. Clutch
+
+#Q Edson Arantes Do Nascimento
+^ Pele
+A Maradonna
+B Carmingo
+C Barloli Dominguez
+D Pele
+
+#Q Jack Nicklaus
+^ The Golden Bear
+A The Golden Eagle
+B The Golden Buckeye
+C The Golden Swing
+D The Golden Bear
+
+#Q Rod Laver
+^ Rocket
+A Booster
+B Rocket
+C Ram
+D The Australian Lion
+
+#Q Joe Namath
+^ Broadway Joe
+A White Shoes
+B 5th Avenue Joe
+C Broadway Joe
+D Smooth as Silk
+
+#Q Willie Mays
+^ The Say-Hey Kid
+A The Kansas Kid
+B Fearless
+C The Say-Hey Kid
+D The Frisco Phenom
+
+#Q Bobby Hull
+^ The Golden Jet
+A The Golden Blackhawk
+B The Golden Flash
+C The Golden Goose
+D The Golden Jet
+
+#Q Paavo Nurmi
+^ The Flying Finn
+A The Finnish Flash
+B The Turko Wonder
+C The Flying Finn
+D The Turko Turbo
+
+#Q Gary Leon Rigway is known as the Green River Killer, responsible for at least 48 murders.  What kind of people did he target?
+^ Prostitutes and runaways
+A Nurses
+B Prostitutes and runaways
+C Schoolboys
+D Schoolgirls
+
+#Q This serial killer, known as The Ripper of Rostov, roamed Russia in the late 1900s.  He was later found guilty of 52 murders and sentenced to death.
+^ Andrei Chikatilo
+A Anatoly Onoprieno
+B Vadim Yershov
+C Nikolai Dzhurmongaliev
+D Andrei Chikatilo
+
+#Q The Monster of the Andes, as Pedro Lopez is known, terrorized Ecuador, Peru and Colombia. How many people did he victimize?
+^ More than 300
+A More than 300
+B More than 100
+C More than 50
+D More than 200
+
+#Q Certainly one of the most dreadful serial killers in US history. Even though he performed as a clown at neghborhood childrens parties, he killed 33 teenagers.
+^ John Wayne Gacy
+A Joe Ball
+B John Wayne Gacy
+C Marie Besnard
+D Albert Fish
+
+#Q Bruno Ludke was born in 1909. When he was young, he tortured animals for fun. He strangled or stabbed to death 85 women.  Where was he from?
+^ Germany
+A Russia
+B Great Britain
+C America
+D Germany
+
+#Q This serial killer terrorized Washington, Oregon, Colorado, Utah, and Florida. His death sentence was executed in Florida on 24 January 1989.
+^ Ted Bundy
+A Richard Ramirez
+B Richard Iceman Kuklinski
+C Juan Corona
+D Ted Bundy
+
+#Q This mans rampage lasted from 1979 to 1981. He roamed Atlanta and Georgia, taking the lives of 27 innocent boys. At first the police thought he was a white supremacist, because he targeted black boys, but it turned out he was black himself.  He was caught on 22 May 1981.
+^ Wayne Williams
+A Kendall Francois
+B Wayne Williams
+C Guy Georges
+D Robert Berdella
+
+#Q This serial killer was known as The Candy Man. His partner,  Wayne Henley, eventually shot him.
+^ Dean Corll
+A Richard Angelo
+B Dean Corll
+C Clifford Robert Olson
+D Abdallah al-Hubal
+
+#Q Henry Lee Lucas confessed to more than 500 murders. How many murders was he actually convicted of?
+^ 11
+A 600
+B 201
+C 255
+D 11
+
+#Q There are many theories about the identity of this mysterious British serial killer. He marks the dawn of the modern age of serial murders. Although the number of his victims is not high, compared to others on our list (5), he is probably the worlds most famous serial murderer.
+^ Jack The Ripper
+A Earl Frederick
+B Jack The Ripper
+C The Toledo Clubber
+D Joel Rifkin
+
+#Q He disliked Jews and accused them of causing all disasters in German history.
+^ Hitler
+A Mussolini
+B Lenin
+C Stalin
+D Hitler
+
+#Q He delivered the famous I have a dream speech.
+^ Martin Luther King Jr.
+A Mao Zedong
+B Martin Luther King Jr.
+C Ho Chi Minh
+D Pope John Paul II
+
+#Q She was the only woman to become Prime Minister of Great Britain.
+^ Margaret Thatcher
+A Diane Julie Abbott
+B Queen Victoria
+C Margaret Thatcher
+D Elizabeth Furse
